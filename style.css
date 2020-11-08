@@ -12,8 +12,16 @@ header {
     margin: auto;
     letter-spacing: -20px;
  }
- body {
+h1 {
+    font-family: 'Syne Mono', monospace;
+    width: 31%;
+    margin-left: auto;
+    margin-top: -4%;
+}
+body {
     width: 70%;
+    height: 100vh;
     margin:auto;
     background: #ffffff;
+    overscroll-behavior: none;
 }
