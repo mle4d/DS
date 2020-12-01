@@ -7,16 +7,18 @@
 header {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
-    font-size: 10.5vmax;
+    font-size: 10.5vw;
     color: #000000;
     margin: auto;
     letter-spacing: -20px;
+    width: 100%;
  }
 h1 {
     font-family: 'Syne Mono', monospace;
-    width: 31%;
-    margin-left: auto;
+    width: 35%;
+    margin-right: 10%;
     margin-top: -4%;
+    font-size: 2.5vw;
 }
 body {
     width: 70%;
