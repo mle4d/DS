@@ -1,3 +1,9 @@
+
+require('dotenv').config({ path: '/.env' })
+const password = require('password')
+db.connect({
+  password: process.env.API_KEY
+})
 var url = 'http://newsapi.org/v2/everything?' +
           'q=Apple&' +
           'from=2020-11-21&' +
